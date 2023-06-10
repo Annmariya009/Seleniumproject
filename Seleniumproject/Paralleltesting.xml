@@ -1,0 +1,14 @@
+<suite name="MySuite" parallel= "tests" thread-count="2">
+	<test name="chrometest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="testng.AssertionsAssignment"></class>
+		</classes>
+	</test>
+	<test name="Edgetest">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="testng.AssertionsAssignment"></class>
+		</classes>
+	</test>
+</suite>

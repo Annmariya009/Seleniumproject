@@ -1,0 +1,8 @@
+<suite name="MySuite">
+	<test name="AssignmentPageFactory">
+		<classes>
+			<class name="testCases.ClientsPageTestCases"></class>
+			<class name="testCases.WorkersPageTestCases"></class>
+		</classes>
+	</test>
+</suite>

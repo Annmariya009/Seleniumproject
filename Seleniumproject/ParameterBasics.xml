@@ -1,0 +1,10 @@
+<suite name="MySuite">
+	<test name="SampleTest">
+		<parameter name="para1" value="100"></parameter>
+		<parameter name="para2" value="hello"></parameter>
+
+		<classes>
+			<class name="testng.ParameterBasics"></class>
+		</classes>
+	</test>
+</suite>

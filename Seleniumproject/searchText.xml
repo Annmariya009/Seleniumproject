@@ -1,0 +1,7 @@
+<suite name="MySuite">
+	<test name="Searchbuttontext">
+		<classes>
+			<class name="testng.SearchButton"></class>
+		</classes>
+	</test>
+</suite>

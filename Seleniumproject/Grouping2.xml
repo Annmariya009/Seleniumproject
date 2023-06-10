@@ -1,0 +1,13 @@
+<suite name="MySuite">
+	<test name="MyTest">
+		<groups>
+			<run>
+				<include name="Critical"></include>
+				<include name="High"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testng.Grouping"></class>
+		</classes>
+	</test>
+</suite>
